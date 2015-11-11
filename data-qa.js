@@ -4,3 +4,6 @@ LocatorBuilders.add('data-qa', function (e) {
     }
     return null;
 });
+
+//make 'data-qa' the default
+LocatorBuilders.order.splice(0, 0, 'data-qa');
